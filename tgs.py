@@ -58,7 +58,7 @@ def extract_text(image_path):
     return secret_text
 
 # Menyembunyikan teks rahasia dalam gambar
-image_path = "pert13/gambar/cup.png"
+image_path = "gambar/cup.png"
 secret_text = 'This is a teh rahasia'
 output_path = 'kopi.png'
 hide_text(image_path, secret_text, output_path) # error
